@@ -1,0 +1,23 @@
+
+<div class="form-container">
+  <h1>Test Component</h1>
+  <label for="name">Name</label>
+  <input
+    type="text"
+    id="name"
+    [(ngModel)]="username"
+    placeholder="Enter a username..."
+  />
+  <hr />
+
+  <label for="password">Password</label>
+  <input
+    type="text"
+    id="password"
+    [(ngModel)]="password"
+    placeholder="Enter a password..."
+  />
+  <hr />
+  <button (click)="onClick()">Get Access Token</button>
+</div>
+
